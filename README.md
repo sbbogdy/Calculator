@@ -17,7 +17,7 @@ pip\
 setuptools\
 ttkthemes
 
-#Limitari
+# Limitari
 Calculatorul are implementate numai operatile de baza: adunare, scadere, inmultire, impartire, ridicare la putere. Asta inseamna ca nu este de ajutor cand trebuie calculat un radical sau o functie trigonometrica. Pe langa asta, ridicare la putere este limitata la numere intregi. Daca un numar trebuie ridicat la un numar rational, rezultatul va fi o eroare.\
 Alte limita au legatura cu scrisul si lungimea calculului. Codul necesita un calcul scris corect, fara parateze lasate deschise sau semne dupa semne, chiar daca ar fi un minus indicand un numar negativ, desi intele un numar langa o paranteza deschisa ca inmultire si n-are nevoie de 0 cat sa stie ca .5 e 0.5.
 
