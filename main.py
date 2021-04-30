@@ -1,9 +1,7 @@
-from tkinter import *
-from PIL import Image,ImageTk
 from calc import *
-from tkinter import ttk
+
 from ttkthemes import ThemedStyle
-import sys
+
 
 
 try:
@@ -26,7 +24,6 @@ except ImportError:
 
     py3 = True
 
-#import unknown_support
 
 
 def vp_start_gui():
@@ -804,6 +801,9 @@ class Toplevel1:
             i+=1
         if len(postv) > 1:
             self.printResult("ERROR")
+            return "ERROR"
+        if len(str(postv[0]))>25:
+            self.printResult("TOO LONG")
             return "ERROR"
         self.printResult(postv[0])
 
