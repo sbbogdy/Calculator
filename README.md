@@ -6,3 +6,5 @@ Pentru GUI, m-am folosit de aplicatia PAGE pentru crearea schitei pentru GUI, pe
 
 Programul este bazat pe rescrierea calculelor scrise in interfata in forma lor postfix, astfel calculatorului fiindu-i mult mai usor sa faca in ordine corect matematic o multitudine de calcule.
 Pentru a realiza asta, i-am oferit fiecarei operatii, o valoare in functie de ordinea in care aceasta are loc. Fiecare operatie prezenta intr-o sau mai multe paranteze isi are valoare crescuta
+
+TEST pentru vizualizarea modificarilor proiectului si intelegerea functiilor 'git'.
